@@ -1,0 +1,57 @@
+/* Megan Boyer
+CSC256 - Web Interfaces I
+5/9/2023
+Assignment 1.2: Review and Practice HTML/CSS */
+
+html{
+    background-image: url("Images/ForestTechBackground.png"); /* Setting the whole page's background as an image */
+    background-repeat: no-repeat; /* Specifying that backgroundimage should not repeat accross the page */
+    background-size: cover; /* Make sure that the image covers the entire html page */
+}
+
+h1{
+    color:silver; /* Set the color of the text */
+    -webkit-text-stroke: 0.2px; /* Give the text a border and specify the width */
+    -webkit-text-stroke-color: green; /* Specify text border color */
+    margin: 1% 1% 1% 42%; /* Set margins using shorthand (top, right, bottom, left */
+    width: fit-content; /* Set width to fit the content */
+}
+
+img{
+    width: 25%; /* Set width and height of image */
+    height: 25%;
+    margin: 0% 0% 0% 37%; /* Set margins */
+    border: groove darkgreen 5px; /* Set border using shorthand (style, color, width */
+    border-radius: 10px; /* Make the border corners curve */
+}
+
+h2{
+    color:silver; /* Set the color of the header two text */
+    width: fit-content; /* Set width to fit the content */
+    margin: 1% 25% 0% 25%; /* Set margins */
+    padding: 3px 3px 3px 3px; /* Set padding */
+    /* Make the background of the space occupied by the header two element a linear gradient and specify the colors */
+    background-image: -webkit-linear-gradient(rgba(93, 64, 27, 0.638), rgb(5, 107, 5), rgba(67, 44, 15, 0.649)); 
+    -webkit-text-stroke: 0.2px green; /* Give the text an outline and specify the width and color */
+}
+
+
+p{
+    text-align: center; /* Align text to center of viewport */
+    color: silver; /* Set text color */
+    width: fit-content; /* Set the width of the paragraph area to fit the content and preserve viewport space */
+    padding-top: 5px; /* Set padding for the top of the paragraph area */
+    margin: 0% 0% 1% 40%; /* Set margins */
+    font-size: larger; /* Set font size */
+    /* Set the background behind the paragraph space to be a linear gradient and specify the colors */
+    background-image: -webkit-linear-gradient(rgba(93, 64, 27, 0.638), rgb(5, 107, 5), rgba(67, 44, 15, 0.649));
+    -webkit-text-stroke: 0.2px green; /* Set outline for text and specify color and width */
+}
+
+a{
+    color: white; /* Make text color white */
+    -webkit-text-stroke: 0.1px darkgreen; /* Set text outline and specify the color and width */
+    margin: 0% 40% 10% 43%; /* Set margins */
+    font-style: italic; /* Make text italic */
+    font-size: larger; /* Set font size */
+}
